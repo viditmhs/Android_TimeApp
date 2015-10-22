@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TMC Time Registering</string>
+    <string name="login">TMC login</string>
+    <string name="welcomeNote">Login to TMC time app for automatic time registration</string>
+    <string name="usernameHint">username@tmc.nl</string>
+    <string name="passwordHint">********</string>
+</resources>

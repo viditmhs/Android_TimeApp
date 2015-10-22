@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#00bfff"
+              android:padding="30dp"
+        >
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome!"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+
+            />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcomeNote"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:textAlignment="gravity"
+            android:paddingBottom="20dp"
+            />
+
+    <TextView
+            android:id="@+id/usernameWarning"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="#ff0000"/>
+
+
+    <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:hint="@string/usernameHint"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            />
+    <TextView
+            android:id="@+id/passwordWarning"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20dp"
+            android:textColor="#ff0000"
+            />
+
+
+    <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:hint="@string/passwordHint"
+            android:inputType="textPassword"
+            android:paddingBottom="10dp"
+            />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:padding="5dp"/>
+
+    <Button
+            android:id="@+id/login"
+            android:layout_height="40dp"
+            android:layout_width="120dp"
+            android:text="@string/login"
+            android:paddingBottom="10dp"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            />
+
+</LinearLayout>
+

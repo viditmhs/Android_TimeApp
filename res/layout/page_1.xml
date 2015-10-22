@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1"
+              android:background="#00bfff">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check In Now"
+                android:id="@+id/check_in"
+                android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/check_in_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Out Now"
+                android:id="@+id/check_out"
+                android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/check_out_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modify Time"
+                android:id="@+id/modify_time"
+                android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/modify_time_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.77"
+            android:weightSum="1">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <CheckBox
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/checkBox_day1"
+                   android:button="@drawable/checkbox_background"
+                   android:layout_weight="1"/>
+            <CheckBox
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/checkBox_day2"
+                   android:button="@drawable/checkbox_background"
+                   android:layout_weight="1"/>
+            <CheckBox
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/checkBox_day3"
+                   android:button="@drawable/checkbox_background"
+                   android:layout_weight="1"/>
+            <CheckBox
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/checkBox_day4"
+                   android:button="@drawable/checkbox_background"
+                   android:layout_weight="1"/>
+            <CheckBox
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/checkBox_day5"
+                   android:button="@drawable/checkbox_background"
+                   android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.67">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="New Text"
+                        android:textColor="#000000"
+                        android:id="@+id/day1_in"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day1_out"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day1_total"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="New Text"
+                        android:textColor="#000000"
+                        android:id="@+id/day2_in"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day2_out"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day2_total"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="New Text"
+                        android:textColor="#000000"
+                        android:id="@+id/day3_in"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day3_out"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day3_total"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="New Text"
+                        android:textColor="#000000"
+                        android:id="@+id/day4_in"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day4_out"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day4_total"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF">
+                <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="New Text"
+                        android:textColor="#000000"
+                        android:id="@+id/day5_in"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day5_out"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+                <TextView android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="New Text"
+                          android:textColor="#000000"
+                          android:id="@+id/day5_total"
+                          android:layout_margin="5dp"
+                          android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Submit Selected Dates"
+            android:id="@+id/submit_clocked_time" android:layout_gravity="center_horizontal"/>
+</LinearLayout>
